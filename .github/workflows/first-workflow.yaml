@@ -10,7 +10,7 @@ jobs:
     # Scripts / Acciones a ejecutar
     steps:
       - name: echo-hello-world
-      - run: echo "Hello world"
+        run: echo "Hello world"
 
   # job2:
   #   runs-on: ubuntu-latest
