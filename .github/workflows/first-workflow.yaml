@@ -1,0 +1,18 @@
+# Nombre del workflow
+name: HELLO WORLD
+# Evento
+on: [push] 
+
+# Array de jobs
+jobs:
+  saludo:
+    runs-on: ubuntu-latest
+    # Scripts / Acciones a ejecutar
+    steps:
+      - name: echo-hello-world
+        run: echo "Hello world"
+
+  # job2:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - run: echo "bye world"
